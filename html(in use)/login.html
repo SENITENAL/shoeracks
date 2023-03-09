@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="home.php">
+      <img src="images/shoesrackslogo.png" alt="Logo"></a>
+      <h1>ShoeRacks</h1>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="signup.html">Signup</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="login">
+    <h1>Login</h1>
+    <form action="login.php" method="POST">
+      <div class="texty">
+        <label for="username">Username:</label>
+      </div>
+      <input type="text" id="uname" name="uname" required>
+      <div class="texty">
+        <label for="password">Password:</label>
+      </div>
+      <input type="password" id="password" name="password" required>
+      <button type="submit" name="login">Login</button>
+    </form>
+  </section>
+  <p>Dont have an account ? <a href="signup.html" class="signup-link">Signup here </a></p>
+</body>
+
+</html>
